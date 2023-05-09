@@ -5,7 +5,7 @@
 * buka kembali project melalui visual studio code
 * jika terdapat perubahan jalankan perintah `git add .` untuk mengupload semua perubahan pada project
 * masukkan perintah `git commit -m "pesan commit"`
-* terakhir, upload perubahan ke github dengan perintah `git push -u origin main`
+* terakhir, upload perubahan ke github dengan perintah `git push -u origin master`
 
 # CodeIgniter 4 Application Starter
 
