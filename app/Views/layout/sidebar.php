@@ -7,81 +7,10 @@
     <!-- bootstrap 5 css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/style.css');?>"/>
+
     <!-- css -->
-    <style>
-      li {
-        list-style: none;
-        margin: 20px 0 20px 0;
-      }
-
-      a {
-        text-decoration: none;
-      }
-
-      .sidebar {
-        width: 250px;
-        height: 100vh;
-        position: fixed;
-        margin-left: -300px;
-        transition: 0.4s;
-      }
-
-      .active-main-content {
-        margin-left: 250px;
-      }
-
-      .active-sidebar {
-        margin-left: 0;
-      }
-
-      #main-content {
-        transition: 0.4s;
-      }
-
-      .bg-maroon {
-        background-color: #800000 !important;
-        border-color: #800000 !important;
-      }
-      
-      .sidebar ul {
-        list-style: none;
-        padding: 0;
-      }
-
-      .sidebar li {
-        position: relative;
-        padding: 2px;
-        cursor: pointer;
-      }
-
-      .dropdown-menu {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background-color: #f1f1f1;
-      }
-
-      .sidebar li:hover .dropdown-menu {
-        display: block;
-      }
-
-      .dropdown-menu li {
-        padding: 0;
-      }
-
-      .dropdown-menu li:hover {
-        background-color: #ddd;
-      }
-      .profile {
-        float: right;
-        margin-left: 20px;
-      }
-
-
-
-    </style>
+    
 
   </head>
 
