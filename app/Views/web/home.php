@@ -9,7 +9,7 @@
         <p>
         Lorem ipsum dolohr sit amet consectetur adipisicing elit. Doloremque
         animi maxime at minima. Totam vero omnis ducimus commodi placeat
-        accusamus, repudiandae nemo, harum magni aperiam esse voluptates.
+        accusamus, repudiandae nemo, haruerum magni aperiam esse voluptates.
         Non, sapiente vyero?
         </p>
         <p>
