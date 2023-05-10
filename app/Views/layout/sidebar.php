@@ -19,7 +19,7 @@
       <img src="gambar.jpg" alt="logo" width="50px" height="50px" />
 
       <li>
-        <a class="text-dark" href="#">
+        <a class="text-dark" href="http://localhost:8080/">
           <i class="bi bi-house mr-2"></i>
           Beranda
         </a>
@@ -38,8 +38,8 @@
           Aset
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownAsset">
-          <li><a class="dropdown-item" href="#">Dokumentasi</a></li>
-          <li><a class="dropdown-item" href="#">Inventaris</a></li>
+          <li><a class="dropdown-item" href="<?= base_url('web/dokumentasi'); ?>">Dokumentasi</a></li>
+          <li><a class="dropdown-item" href="<?= base_url('web/inventaris'); ?>">Inventaris</a></li>
         </ul>
       </li>
 
@@ -57,10 +57,10 @@
             Rekapitulasi
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownAsset">
-            <li><a class="dropdown-item" href="#">Aset Masuk</a></li>
-            <li><a class="dropdown-item" href="#">Aset Keluar</a></li>
-            <li><a class="dropdown-item" href="#">Aset Dipinjamkan</a></li>
-            <li><a class="dropdown-item" href="#">Aset Dikembalikan</a></li>
+            <li><a class="dropdown-item" href="<?= base_url('web/masuk'); ?>">Aset Masuk</a></li>
+            <li><a class="dropdown-item" href="<?= base_url('web/keluar'); ?>">Aset Keluar</a></li>
+            <li><a class="dropdown-item" href="<?= base_url('web/dipinjamkan'); ?>">Aset Dipinjamkan</a></li>
+            <li><a class="dropdown-item" href="<?= base_url('web/dikembalikan'); ?>">Aset Dikembalikan</a></li>
           </ul>
         </li>
 
@@ -77,12 +77,12 @@
             Pelacakan
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownAsset">
-            <li><a class="dropdown-item" href="#">Status Aset</a></li>
-            <li><a class="dropdown-item" href="#">Lokasi Aset</a></li>
+            <li><a class="dropdown-item" href="<?= base_url('web/status'); ?>">Status Aset</a></li>
+            <li><a class="dropdown-item" href="<?= base_url('web/lokasi'); ?>">Lokasi Aset</a></li>
           </ul>
         </li>
             <li>
-              <a class="text-dark" href="#">
+              <a class="text-dark" href="<?= base_url('web/roi'); ?>">
                 <i class="bi bi-calculator mr-2"></i>
                 Nilai Aset (ROI)
               </a>
