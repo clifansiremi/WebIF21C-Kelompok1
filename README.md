@@ -1,3 +1,12 @@
+# Cara cloning repositori ini
+* buka gitbash melalui direktori htdocs dan ketik perintah `git clone https://github.com/clifansiremi/WebIF21C-Kelompok1.git`
+* setelah tercloning, masuk ke direktori project dengan perintah `cd WebIF21C-Kelompok1/`
+* jalankan perintah `composer update`
+* buka kembali project melalui visual studio code
+* jika terdapat perubahan jalankan perintah `git add .` untuk mengupload semua perubahan pada project
+* masukkan perintah `git commit -m "pesan commit"`
+* terakhir, upload perubahan ke github dengan perintah `git push -u origin master`
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
