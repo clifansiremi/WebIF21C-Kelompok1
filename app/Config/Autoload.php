@@ -94,4 +94,10 @@ class Autoload extends AutoloadConfig
      * @phpstan-var list<string>
      */
     public $helpers = [];
+    public function __construct()
+    {
+        parent::__construct();
+
+        $this->autoload['libraries'] = ['session'];
+    }
 }

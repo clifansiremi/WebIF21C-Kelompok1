@@ -108,7 +108,7 @@
               </a>
             </li>
             <li>
-              <a class="text-dark" href="#">
+              <a class="text-dark" href="<?= base_url('web/logout'); ?>">
                 <i class="bi bi-exit mr-2"></i>
                 Keluar
               </a>

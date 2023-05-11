@@ -1,0 +1,86 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    margin: 100px auto 0;
+  }
+  
+  .login-form hr {
+    color: black;
+    width: 100%;
+  }
+  .login-form h2 {
+    margin-bottom: 20px;
+    opacity: 0.7;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .form-group {
+    position: relative;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-group label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 10px;
+    color: #999;
+    transition: all 0.2s ease-out;
+    pointer-events: none;
+  }
+  
+  .form-group input:focus + label,
+  .form-group input:not(:placeholder-shown) + label {
+    top: -1px;
+    left: 20px;
+    font-style: bold;
+    opacity: 50%;
+    font-size: 12px;
+    color: #000000;
+  }
+  
+  .login-form input[type="garis"] {
+    position: absolute;
+    color: black;
+    width: 100%;
+    top: -30px;
+  }
+  
+  button[type="submit"] {
+    background-color: #820000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 90%;
+    position: relative;
+  }
+  

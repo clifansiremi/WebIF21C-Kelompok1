@@ -44,4 +44,12 @@ class Web extends BaseController
     {
         return view('web/roi');
     }
+    public function logout()
+    {
+        return view('web/login/login');
+    }
+    public function register()
+    {
+        return view('web/login/register');
+    }
 }
