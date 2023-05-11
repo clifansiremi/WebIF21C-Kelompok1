@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('css/style_log.css');?>"/>
 </head>
 <body background="Gedung.jpg">
-<?php if (session()->getFlashdata('success')) : ?>
+		<?php if (session()->getFlashdata('success')) : ?>
     	<div class="alert alert-success"><?= session()->getFlashdata('success'); ?></div>
 		<?php endif; ?>
 

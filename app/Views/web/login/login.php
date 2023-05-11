@@ -5,9 +5,9 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('css/style_log.css');?>"/>
 </head>
 <body background="Gedung.jpg">
-<?php if (isset($error)) : ?>
-    <div class="alert alert-danger"><?= $error ?></div>
-<?php endif; ?>
+	<?php if (isset($error)) : ?>
+		<div class="alert alert-danger"><?= $error ?></div>
+	<?php endif; ?>
 
 	<form class="login-form" action="<?php echo base_url('Login/login'); ?>" method="post">
 		<H1 class="H4 text-gray-900 mb-4">
@@ -32,11 +32,6 @@
 	  
 		<button type="submit">Masuk</button>
 		</form>
-
-		
-
-      	
-		
-		
+				
 </body>
 </html>
